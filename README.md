@@ -80,3 +80,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### use store in react app
 - goto index js file & import Provider
 - wrape app component inside provider & set the store props by calling configstore method
+- create redux folder
+- store js transfer to redux folder
+- create reducers js 
+### reducers js 
+- define all action types as constants {create constants js & initialize action type names}
+- then define initial state
+- add the reducers login using switch case based on action types
+- after that ensure the reducers has been included in the store js file
+- 
