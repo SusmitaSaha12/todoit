@@ -88,4 +88,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - then define initial state
 - add the reducers login using switch case based on action types
 - after that ensure the reducers has been included in the store js file
-- 
+- new todo create in reducer 
+### action js
+- action create inside action js using constants js
+- for dispatch action i need to create component
+- so Newtodo js created & render NewTodo inside App component
+### Material Ui define for css
+- npm install @mui/material @emotion/react @emotion/styled
+- npm install @mui/material @mui/styled-engine-sc styled-components
+
+
+

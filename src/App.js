@@ -1,9 +1,10 @@
 import React from "react";
+import NewTodo from "./components/NewTodo";
 
 function App() {
   return (
     <div>
-      <h1>Hello Susmita</h1>
+      <NewTodo />
     </div>
   );
 }

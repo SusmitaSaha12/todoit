@@ -11,6 +11,12 @@ export const todos = (state = initialState, action) => {
   const { type, payload } = action;
   switch (type) {
     case CREATE_TODO:
+        const {todo} = payload;
+        return {
+            ...state,
+            newone: "newone",
+            data: state.data.push(todo)
+        }
     default:
       return state;
   }
