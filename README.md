@@ -73,3 +73,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### start 
 - react app install
 - npm install redux react-redux
+- npm install --save-dev @redux-devtools/core 
+### store js create 
+- npm i redux-devtools-extension
+- npm install redux-thunk
+### use store in react app
+- goto index js file & import Provider
+- wrape app component inside provider & set the store props by calling configstore method
